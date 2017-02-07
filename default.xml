@@ -522,5 +522,8 @@
   <project path="sdk" name="platform/sdk" groups="pdk-cw-fs,pdk-fs" remote="aosp" />
   <project path="system/gatekeeper" name="platform/system/gatekeeper" groups="pdk" remote="aosp" />
 <!-- END AOSP -->
+  
+  <project path="device/Micromax/A311" name="Lineage-OS-13-MT6592/android_device_Micromax_A311" revision="master" />
+  <project path="vendor/Micromax/A311" name="Lineage-OS-13-MT6592/android_vendor_Micromax_A311" revision="master" />
 
 </manifest>
