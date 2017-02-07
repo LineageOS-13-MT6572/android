@@ -28,4 +28,14 @@ Then to sync up:
 
     source build/envsetup.sh
     brunch cm_A311-userdebug
+    
+Credits
+---------------
+
+        # fire855
+        
+        # ferhung-mtk
+        
+        # all those who initially brought up Android M to MTK
+
 
