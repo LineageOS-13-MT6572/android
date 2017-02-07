@@ -36,6 +36,8 @@ Credits
         
         # ferhung-mtk
         
+        # Tirth Patel
+        
         # all those who initially brought up Android M to MTK
 
 
