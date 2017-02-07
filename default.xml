@@ -19,7 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN LINEAGEOS -->
-  <project path="build" name="LineageOS/android_build" groups="pdk" >
+  <project path="build" name="Lineage-OS-13-MT6592/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="LineageOS/android" />
