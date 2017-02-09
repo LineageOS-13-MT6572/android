@@ -19,7 +19,7 @@
            sync-j="4" />
 
 <!-- BEGIN LINEAGEOS -->
-  <project path="build" name="Lineage-OS-13-MT6572/android_build" groups="pdk" >
+  <project path="build" name="LineageOS-13-MT6572/android_build" groups="pdk" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="android" name="LineageOS/android" />
@@ -118,7 +118,7 @@
   <project path="external/powertop" name="LineageOS/android_external_powertop" />
   <project path="external/protobuf-c" name="LineageOS/android_external_protobuf-c" />
   <project path="external/rsync" name="LineageOS/android_external_rsync" />
-  <project path="external/sepolicy" name="Lineage-OS-13-MT6572/android_external_sepolicy" groups="pdk" />
+  <project path="external/sepolicy" name="LineageOS-13-MT6572/android_external_sepolicy" groups="pdk" />
   <project path="external/skia" name="LineageOS/android_external_skia" groups="pdk,qcom_msm8x26" />
   <project path="external/sonivox" name="LineageOS/android_external_sonivox" groups="pdk" />
   <project path="external/speex" name="LineageOS/android_external_speex" groups="pdk" />
@@ -136,12 +136,12 @@
   <project path="external/unzip" name="LineageOS/android_external_unzip" />
   <project path="external/vim" name="LineageOS/android_external_vim" />
   <project path="external/vogar" name="LineageOS/android_external_vogar" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="Lineage-OS-13-MT6572/android_external_wpa_supplicant_8" groups="pdk" />
+  <project path="external/wpa_supplicant_8" name="LineageOS-13-MT6572/android_external_wpa_supplicant_8" groups="pdk" />
   <project path="external/yaffs2" name="LineageOS/android_external_yaffs2" groups="pdk" />
   <project path="external/zip" name="LineageOS/android_external_zip" />
   <project path="external/zlib" name="LineageOS/android_external_zlib" groups="pdk" />
-  <project path="frameworks/av" name="Lineage-OS-13-MT6572/android_frameworks_av" groups="pdk" />
-  <project path="frameworks/base" name="Lineage-OS-13-MT6572/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
+  <project path="frameworks/av" name="LineageOS-13-MT6572/android_frameworks_av" groups="pdk" />
+  <project path="frameworks/base" name="LineageOS-13-MT6572/android_frameworks_base" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/compile/libbcc" name="LineageOS/android_frameworks_compile_libbcc" groups="pdk" />
   <project path="frameworks/compile/mclinker" name="LineageOS/android_frameworks_compile_mclinker" groups="pdk" />
   <project path="frameworks/compile/slang" name="LineageOS/android_frameworks_compile_slang" groups="pdk" />
@@ -149,7 +149,7 @@
   <project path="frameworks/minikin" name="LineageOS/android_frameworks_minikin" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/ml" name="LineageOS/android_frameworks_ml" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/multidex" name="LineageOS/android_frameworks_multidex" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/native" name="Lineage-OS-13-MT6572/android_frameworks_native" groups="pdk" />
+  <project path="frameworks/native" name="LineageOS-13-MT6572/android_frameworks_native" groups="pdk" />
   <project path="frameworks/opt/bitmap" name="LineageOS/android_frameworks_opt_bitmap" groups="pdk-fs" />
   <project path="frameworks/opt/bluetooth" name="LineageOS/android_frameworks_opt_bluetooth" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/calendar" name="LineageOS/android_frameworks_opt_calendar" groups="pdk-cw-fs,pdk-fs" />
@@ -165,10 +165,10 @@
   <project path="frameworks/opt/net/wifi" name="LineageOS/android_frameworks_opt_net_wifi" groups="pdk" />
   <project path="frameworks/opt/photoviewer" name="LineageOS/android_frameworks_opt_photoviewer" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/setupwizard" name="LineageOS/android_frameworks_opt_setupwizard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/opt/telephony" name="Lineage-OS-13-MT6572/android_frameworks_opt_telephony" groups="pdk" />
+  <project path="frameworks/opt/telephony" name="LineageOS-13-MT6572/android_frameworks_opt_telephony" groups="pdk" />
   <project path="frameworks/opt/timezonepicker" name="LineageOS/android_frameworks_opt_timezonepicker" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/opt/vcard" name="LineageOS/android_frameworks_opt_vcard" groups="pdk-cw-fs,pdk-fs" />
-  <project path="frameworks/rs" name="Lineage-OS-13-MT6572/android_frameworks_rs" groups="pdk" />
+  <project path="frameworks/rs" name="LineageOS-13-MT6572/android_frameworks_rs" groups="pdk" />
   <project path="frameworks/support" name="LineageOS/android_frameworks_support" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/volley" name="LineageOS/android_frameworks_volley" groups="pdk-cw-fs,pdk-fs" />
   <project path="frameworks/webview" name="LineageOS/android_frameworks_webview" groups="pdk-cw-fs,pdk-fs" />
@@ -280,16 +280,16 @@
   <project path="packages/wallpapers/PhaseBeam" name="LineageOS/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="LineageOS/android_packages_wallpapers_PhotoPhase" />
   <project path="prebuilts/cmsdk" name="LineageOS/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
-  <project path="system/bt" name="Lineage-OS-13-MT6572/android_system_bt" groups="pdk" />
-  <project path="system/core" name="Lineage-OS-13-MT6572/android_system_core" groups="pdk" />
+  <project path="system/bt" name="LineageOS-13-MT6572/android_system_bt" groups="pdk" />
+  <project path="system/core" name="LineageOS-13-MT6572/android_system_core" groups="pdk" />
   <project path="system/extras" name="LineageOS/android_system_extras" groups="pdk" />
   <project path="system/extras/su" name="LineageOS/android_system_extras_su" />
   <project path="system/keymaster" name="LineageOS/android_system_keymaster" groups="pdk" />
   <project path="system/media" name="LineageOS/android_system_media" groups="pdk" />
-  <project path="system/netd" name="Lineage-OS-13-MT6572/android_system_netd" groups="pdk" />
+  <project path="system/netd" name="LineageOS-13-MT6572/android_system_netd" groups="pdk" />
   <project path="system/qcom" name="LineageOS/android_system_qcom" groups="qcom" />
   <project path="system/security" name="LineageOS/android_system_security" groups="pdk" />
-  <project path="system/vold" name="Lineage-OS-13-MT6572/android_system_vold" groups="pdk" />
+  <project path="system/vold" name="LineageOS-13-MT6572/android_system_vold" groups="pdk" />
   <project path="vendor/cm" name="LineageOS/android_vendor_cm" />
   <project path="vendor/cmsdk" name="LineageOS/cm_platform_sdk" />
 
