@@ -10,7 +10,7 @@ familiar with [Git and Repo](http://source.android.com/source/using-repo.html).
 
 To initialize your local repository using the LineageOS trees, use a command like this:
 
-    repo init -u git://github.com/Lineage-OS-13-MT6592/android.git -b cm-13.0
+    repo init -u git://github.com/LineageOS-13-MT6572/android.git -b cm-13.0
 
 Then to sync up:
 
@@ -27,7 +27,7 @@ To Build
 Then to sync up:
 
     source build/envsetup.sh
-    brunch cm_A311-userdebug
+    brunch cm_yaris_m_gsm-userdebug
     
 Credits
 ---------------
